@@ -1,0 +1,14 @@
+services:
+  aegisnt-desktop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aegisnt-desktop-os
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    labels:
+      - "com.aegisnt.description=AegisNT Enterprise OS Desktop Environment"

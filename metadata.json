@@ -1,0 +1,6 @@
+{
+  "name": "AegisNT Enterprise OS",
+  "description": "Windows NT-inspired enterprise operating system environment featuring custom microkernel architecture, Win32/Wine compatibility subsystem, Driver Development Kit (WDK), QEMU/KVM virtualization, NVMe/USB4/GPU passthrough, encrypted partition manager, and LibreOffice enterprise suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
